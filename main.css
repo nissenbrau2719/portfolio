@@ -3,8 +3,12 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background: rgb(120, 120, 120);
+  background-image: url(https://images.unsplash.com/photo-1532240916534-3193d70b73f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 nav {
@@ -16,7 +20,12 @@ nav {
   background: black;
   color: white;
   padding: 0 20px;
-  /* display: flex; */
+}
+
+.navContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  
 }
 
 ul {
@@ -34,10 +43,24 @@ li {
 a {
   text-decoration: none;
   color: white;
+  
 }
-h1 {
-  font-size: 5em;
+
+section a {
+  font-weight: 800;
+}
+
+p {
   color: white;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 2px;
 }
 
 header {
@@ -47,18 +70,28 @@ header {
 }
 
 main {
-  /* padding-bottom: 100px; */
+  padding-bottom: 50px;
   margin: 0;
 }
 
 section {
   background: black;
   color: white;
-  min-height: 250px;
+  min-height: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 100px 0;
+  padding: 100px 20px;
+  /* text-align: center; */
+  line-height: 2;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  max-width: 768px;
 }
 
 footer {
@@ -74,6 +107,15 @@ footer {
   padding-right: 20px;
 }
 
+.footLinks li{
+  padding: 0 20px;
+  font-size: 1.25em;
+}
+
+.big {
+  font-size: 24px;
+}
+
 .lightDarkToggle {
   float: right;
   padding-top: 15px;
@@ -85,10 +127,59 @@ footer {
 }
 
 .js-lightmodeBackground {
-  background: rgb(219, 219, 219);
+  background-image: url(https://images.unsplash.com/photo-1571922987359-6988f745fa60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80);
 }
 
 .js-lightmodeText {
   color: black;
 }
 
+@media only screen and (min-width: 425px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+ p {
+   font-size: 20px;
+ }
+
+ .big {
+   font-size: 28px
+ }
+
+ h1 {
+   font-size: 5em;
+ }
+
+ .footLinks li {
+   padding: 0 30px;
+   font-size: 1.5em;
+ }
+
+ nav li {
+   font-size: 1.2em;
+ }
+}
+
+@media only screen and (min-width: 1440px) {
+  p { 
+    font-size: 24px;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 7em;
+  }
+
+  .footLinks li {
+    padding: 0 50px;
+    font-size: 1.75em;
+  }
+
+  nav li {
+    font-size: 1.5em;
+  }
+}

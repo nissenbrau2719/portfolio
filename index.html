@@ -4,35 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio Greybox Wireframe</title>
+  <title>Paul Nissen - Portfolio</title>
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro:900|Montserrat:500,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/64efd63097.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav role="navigation">
-    <ul>
-      <li><a href="">Top</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Projects</a></li>
-    </ul>
-    <div class="lightDarkToggle">
-      <input type="button" id="toggleTheme" value="Light/Dark">
-    </div>   
+    <div class="navContainer">
+      
+      <ul class="navLinks">
+        <li><a href="">PAUL NISSEN</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Projects</a></li>
+      </ul>
+      <div class="lightDarkToggle">
+        <input type="button" id="toggleTheme" value="Light/Dark">
+      </div>
+    </div>
   </nav>
   <header>
-    <h1>Hero</h1>
+    <h1>Paul Nissen</h1>
+    <p class="big">Web Developer</p>
   </header>
   <main>
-    <section class="headline">Headline</section>
-    <section class="bio">About Me</section>
+    <section class="headline">
+      <div class="container">
+        <p class="big">Hi, I'm Paul.</p>
+        <p>I'm a Web Developer and Craft Brewer who currently resides in Fort Collins, Colorado.</p>
+        <p>I am currently challenging myself to complete the Bloc.io Web Development Track and expand my skill set 
+          while maintaining a full-time career in the craft beer industry.</p>
+        <p>I got into coding because I enjoy 
+          creating things and solving problems, and I have always wondered about how the amazing advancements 
+          in tech work behind the scenes. I am interested in Web and App Development featuring stylish designs, 
+          eye-catching animations, and functional improvements to day-to-day life.</p>
+      </div>      
+    </section>
+    <section class="bio">
+      <div class="container">
+        <p>When I'm not teaching myself new programming skills or brewing delicious beer, I like to cook for my
+        friends and family, catch some live music, explore the foothills on my motorcycle, or just curl up on 
+        the couch with my fiancee and our dog to enjoy a movie or play some video games.</p>
+        <p>Feel free to check out my <a href="">GitHub</a>, or contact me via <a href="">Email</a> or <a href="">LinkedIn</a></p>
+      </div>
+    </section>
     <section class="projects">Projects</section>
   </main>
   <footer>
-    <ul class="footLinks">
-      <li><a href="">email</a></li>
-      <li><a href="">github</a></li>
-      <li><a href="">linked in</a></li>
+    <div class="navContainer">
+      <ul class="footLinks">
+        <li><a href=""><i class="fas fa-envelope" alt="Email icon"></i></a></li>
+        <li><a href=""><i class="fab fa-github" alt="GitHub icon"></i></a></li>
+        <li><a href=""><i class="fab fa-linkedin" alt="LinkedIn icon"></i></a></li>
     </ul>
+    </div>
+    
   </footer>
 
   <script
