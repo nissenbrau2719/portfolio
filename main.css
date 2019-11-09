@@ -52,7 +52,7 @@ section a {
 
 p {
   color: white;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   font-size: 16px;
 }
 
@@ -84,14 +84,32 @@ section {
   align-items: center;
   margin: 100px 0;
   padding: 100px 20px;
-  /* text-align: center; */
+  max-width: 1440px;
   line-height: 2;
+  border-radius: 3px;
+}
+
+.bio {
+  margin-left: auto;
+}
+
+.projects {
+  margin: 0 auto;
 }
 
 .container {
   padding: 0;
   margin: 0;
   max-width: 768px;
+}
+
+.appScreenshot {
+  max-width: 100%;
+}
+
+.appLinks {
+  display: block;
+  align-self: center;
 }
 
 footer {
@@ -127,7 +145,7 @@ footer {
 }
 
 .js-lightmodeBackground {
-  background-image: url(https://images.unsplash.com/photo-1571922987359-6988f745fa60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80);
+  background-image: url(https://images.unsplash.com/photo-1569877352654-f634d5c87bdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80);
 }
 
 .js-lightmodeText {
