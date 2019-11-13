@@ -50,7 +50,6 @@ a {
   background: none;
   border: none;
   color: white;
-  /* padding: 12px 16px;  */
   font-size: 24px; 
   cursor: pointer; 
 }
@@ -75,8 +74,9 @@ h1 {
   padding: 0;
 }
 
-.subtitle{
+.subtitle {
   text-align: right;
+  font-family: 'Permanent Marker', cursive;
 }
 
 header {
