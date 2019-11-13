@@ -19,7 +19,6 @@ nav {
   z-index: 10;
   background: black;
   color: white;
-  /* padding: 0 5px; */
 }
 
 .navContainer {
@@ -82,7 +81,6 @@ h1 {
 header {
   margin-top: 100px;
   padding: 50px 25px;
-  /* text-align: center; */
 }
 
 header .container {
@@ -113,6 +111,15 @@ section {
   margin-left: auto;
 }
 
+.icons {
+  margin: 0;
+  padding: 0;
+}
+
+.icons i {
+  margin: 0;
+  padding: 0 10px 0 0;
+}
 .projects {
   margin: 0 auto;
 }
@@ -159,8 +166,8 @@ footer {
 }
 
 .js-lightmodeSection {
-  background:rgb(240, 240, 245);
-  color: rgb(8, 4, 41);
+  background: white;
+  color: rgb(1, 33, 120);
 }
 
 .js-lightmodeBackground {
@@ -168,7 +175,7 @@ footer {
 }
 
 .js-lightmodeText {
-  color: rgb(8, 4, 41);
+  color: rgb(1, 33, 120);
 }
 
 
