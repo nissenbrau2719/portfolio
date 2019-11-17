@@ -11,16 +11,16 @@
   <script src="https://kit.fontawesome.com/64efd63097.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav role="navigation">
+  <nav>
     <div class="navContainer">
       
       <ul class="navLinks">
-        <li><a href="#paul">Paul Nissen</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#paul" aria-label="Skip to Paul's Intro Section">Paul Nissen</a></li>
+        <li><a href="#about" aria-label="Skip to About Me Section">About</a></li>
+        <li><a href="#projects" aria-label="Skip to Project Section">Projects</a></li>
       </ul>
       <div class="lightDarkToggle">
-        <button id="toggleTheme"><i class="fas fa-toggle-on"></i></button>
+        <button id="toggleTheme" value="light/darkTheme"><i class="fas fa-toggle-on" title="Toggle light/dark theme"></i></button>
       </div>
     </div>
   </nav>
@@ -47,17 +47,19 @@
 
     <section class="bio" id="about">
       <div class="container">
+        <h2>About Me</h2>
         <p>When I'm not teaching myself new programming skills or brewing delicious beer, I like to cook for my
         friends and family, catch some live music, explore the foothills on my motorcycle, or just curl up on 
         the couch with my fiancee and our dog to enjoy a movie or play some video games.</p>
-        <p>Feel free to check out my <a href="https://github.com/nissenbrau2719">GitHub</a>, or contact me via <a href="mailto: paul.d.nissen@gmail.com">Email</a> or <a href="https://www.linkedin.com/in/paul-nissen-39b8b5192/">LinkedIn</a>.</p>
+        <p>Feel free to check out my <a href="https://github.com/nissenbrau2719" target="_blank">GitHub</a>, or contact me via <a href="mailto:paul.d.nissen@gmail.com" target="_blank">Email</a> or <a href="https://www.linkedin.com/in/paul-nissen-39b8b5192/" target="_blank">LinkedIn</a>.</p>
       </div>
     </section>
 
     <section class="projects" id="projects">
       <div class="myProject container">
+        <h2 class="big">Projects</h2>
         <img class="appScreenshot" src="https://lh3.googleusercontent.com/5t8toVn05g6aAATztTtkALHkeVS00ytpxSLRYK4NEKgfPI7p83YI5h2XjZimr7oarncR2C7mnNdOPMMZLGiXfAC4UnH7KBjY8POhYr6ujvlpdpj9412S0OHfYa-Sda3A9kdsPAJ-uw=w2400" alt="screenshot of beer quiz">
-        <h2 class="big">Brewers' Quiz</h2>
+        <h3 class="big">Brewers' Quiz</h2>
         <p>I created a short quiz as a single page application to test the knowledge of fellow brewers and 
             beer enthusiasts. It is responsive and accessible, and uses HTML, CSS, JavaScript and jQuery.</p>
         <p><a href="https://github.com/nissenbrau2719/quiz-app" target="_blank">Code</a> | <a href="https://nissenbrau2719.github.io/quiz-app/" target="_blank">Demo</a></p>
@@ -67,9 +69,9 @@
   <footer>
     <div class="navContainer">
       <ul class="footLinks">
-        <li><a href="https://github.com/nissenbrau2719" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li><a href="mailto: paul.d.nissen@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/paul-nissen-39b8b5192/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/nissenbrau2719" target="_blank" aria-label="Link to GitHub"><i class="fab fa-github" title="GitHub"></i></a></li>
+        <li><a href="mailto:paul.d.nissen@gmail.com" target="_blank" aria-label="Link to Email"><i class="fas fa-envelope" title="Email"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/paul-nissen-39b8b5192/" target="_blank" aria-label="Link to LinkedIn"><i class="fab fa-linkedin" title="LinkedIn"></i></a></li>
     </ul>
     </div>
     
