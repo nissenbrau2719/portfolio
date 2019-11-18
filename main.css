@@ -77,11 +77,11 @@ h1 {
 
 .subtitle {
   text-align: right;
-  font-family: 'Permanent Marker', cursive;
 }
 
 h2 {
   font-family: 'Permanent Marker', cursive;
+  color: white;
 }
 
 h3 {
@@ -196,7 +196,7 @@ footer {
    font-size: 20px;
  }
  h2 {
-   font-size: 28px;
+   font-size: 32px;
  }
  .big {
    font-size: 28px;
@@ -236,7 +236,7 @@ footer {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 40px;
   }
   .big {
     font-size: 36px;
